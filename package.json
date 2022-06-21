@@ -1,0 +1,28 @@
+{
+  "name": "projeto-mensagens-aleatorias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Francileudo Oliveira <sfrancileudo1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "commit" : "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

@@ -1,7 +1,11 @@
+import { Header } from '../components/Header/index'
+import { GlobalCSS } from '../Global/GlobalStylesCSS'
+
 export default function Home() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <GlobalCSS />
+      <Header />
     </>
   )
 }

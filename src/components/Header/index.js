@@ -1,4 +1,4 @@
-import { BotaoMidiasSociais } from '../Botao-midias-sociais/index'
+import { ButtonSocialMedia } from '../ButtonSocialMedia/index'
 
 export function Header() {
   return (
@@ -8,8 +8,8 @@ export function Header() {
         <h1>Mensagens Aleatórias</h1>
       </div>
       <div className="bloco-midias-sociais">
-        <BotaoMidiasSociais iconID="akar-icons:github-fill" URLLink="https://github.com/fransilva0" titleLink="FranSilva0" />
-        <BotaoMidiasSociais iconID="entypo-social:linkedin-with-circle" URLLink="https://www.linkedin.com/in/francileudo-oliveira/" titleLink="Francileudo Oliveira" />
+        <ButtonSocialMedia iconID="akar-icons:github-fill" URLLink="https://github.com/fransilva0" titleLink="FranSilva0" />
+        <ButtonSocialMedia iconID="entypo-social:linkedin-with-circle" URLLink="https://www.linkedin.com/in/francileudo-oliveira/" titleLink="Francileudo Oliveira" />
       </div>
     </header>
     <style jsx>{`

@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react'
 
-export function BotaoMidiasSociais(props) {
+export function ButtonSocialMedia(props) {
   return (
     <>
       <div className="bloco-midias-sociais__midia-link">

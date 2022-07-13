@@ -4,7 +4,7 @@ export function ButtonSocialMedia(props) {
   return (
     <>
       <div className="bloco-midias-sociais__midia-link">
-          <Icon icon={props.iconID} color="#999" width="30" />
+          <Icon icon={props.iconID} color="#F9C823" width="30" />
           <a className="bloco-midias-sociais__midia-link--space" href={props.URLLink} target="_blank" rel="noreferrer" >{props.titleLink}</a>
         </div>
         <style jsx>{`
@@ -17,6 +17,10 @@ export function ButtonSocialMedia(props) {
 
           .bloco-midias-sociais__midia-link--space {
             margin-left: 0.5rem;
+            color: #000;
+          }
+          .bloco-midias-sociais__midia-link--space:hover {
+            color: #F9C823;
           }
         `}</style>
     </>

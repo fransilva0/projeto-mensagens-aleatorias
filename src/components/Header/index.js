@@ -18,7 +18,6 @@ export function Header() {
         justify-content: space-around;
         align-items: center;
         padding: 0.5rem;
-        border-bottom: 1px solid #999;
       }
 
       .bloco-text-header {

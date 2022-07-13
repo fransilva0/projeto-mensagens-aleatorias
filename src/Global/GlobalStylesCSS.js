@@ -11,6 +11,11 @@ export function GlobalCSS() {
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
       }
+
+      body {
+        background: linear-gradient(90deg, hsla(46, 95%, 56%, 1) 0%, hsla(350, 97%, 65%, 1) 100%);
+      }
+
     `}</style>
   )
 }

@@ -1,7 +1,7 @@
 export function ReactionButton(props) {
   return (
     <>
-      <button>{props.content}</button>
+      <button onClick={props.function}>{props.content}</button>
       <style jsx>{`
       button {
         font-size: 1.5rem;
